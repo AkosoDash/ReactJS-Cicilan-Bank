@@ -6,11 +6,9 @@ class App extends React.Component{
   constructor(){
     super();
     this.state = {
-      berat: 0,  
-      tinggi: 0,
-      hasil: 0,
-      keterangan: "Silahkan masukkan berat badan anda dalam satuan kilogram dan tinggi badan anda dalam satuan cm",
-      warna: "info"
+      nominal: 0,  
+      bunga: 0,
+      periode: 0
     }
   }
   nominal = (event) => {
